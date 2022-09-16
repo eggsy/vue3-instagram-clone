@@ -1,4 +1,4 @@
-// Remove blue highlight from mobile users
+/* Remove blue highlight from mobile users */
 * {
   -webkit-tap-highlight-color: transparent;
 }

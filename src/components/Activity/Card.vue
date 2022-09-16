@@ -54,7 +54,7 @@ const findPersonAvatar = () => {
       username="eggsy_dev"
       size="sm"
       :put-username="false"
-      :avatar="findPersonAvatar()"
+      :avatar="findPersonAvatar() || ''"
       class="flex-shrink-0"
       :seen="getRandomBooleanValue"
     />
