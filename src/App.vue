@@ -15,7 +15,7 @@ router.beforeEach(() => {
 </script>
 
 <template>
-  <div class="lg:w-3/12 relative mx-auto">
+  <div class="lg:w-[27.5%] relative mx-auto">
     <Layout>
       <RouterView />
     </Layout>

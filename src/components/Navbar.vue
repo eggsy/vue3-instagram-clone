@@ -26,7 +26,7 @@ onBeforeUnmount(() => {
 <template>
   <nav
     v-if="route.path === '/'"
-    class="flex fixed top-0 lg:w-3/12 mx-auto shadow-sm inset-x-0 items-center bg-white justify-between px-4 py-2 border-b border-[#DBDBDB]"
+    class="flex fixed top-0 lg:w-[27.5%] mx-auto shadow-sm inset-x-0 items-center bg-white justify-between px-4 py-2 border-b border-[#DBDBDB]"
   >
     <RouterLink to="/camera">
       <IconCamera class="text-xl" />

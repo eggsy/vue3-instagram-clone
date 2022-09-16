@@ -17,7 +17,7 @@ const filteredPages = ["/messages", "/camera"];
 <template>
   <nav
     v-if="!filteredPages.includes(route.path)"
-    class="fixed lg:w-3/12 border-t shadow-sm border-[#DBDBDB] mx-auto items-center bg-white inset-x-0 gap-x-8 bottom-0 py-2 px-4 flex text-2xl justify-evenly"
+    class="fixed lg:w-[27.5%] border-t shadow-sm border-[#DBDBDB] mx-auto items-center bg-white inset-x-0 gap-x-8 bottom-0 py-2 px-4 flex text-2xl justify-evenly"
   >
     <RouterLink to="/">
       <IconHome :filled="route.path === '/'" />
