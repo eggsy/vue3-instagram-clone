@@ -7,7 +7,9 @@ import Pages from "vite-plugin-pages";
 export default defineConfig({
   plugins: [
     vue(),
-    Icons({ autoInstall: true }),
+    Icons({
+      autoInstall: true,
+    }),
     Pages({
       dirs: ["src/views"],
     }),
