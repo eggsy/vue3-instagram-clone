@@ -12,15 +12,19 @@ Here's a _not-so-little but also not-so-detailed_ Instagram clone app with Vue 3
     <tr>
       <td>
         <img src="https://user-images.githubusercontent.com/13917975/190673101-a461b7cd-246b-45a7-9c0e-ee0f1df59a4c.png" />
+        <p align="center">Homepage</p>
       </td>
       <td>
         <img src="https://user-images.githubusercontent.com/13917975/190673127-fef384a0-a0eb-4bda-8dc1-04e7982b0766.png" />
+        <p align="center">Messages</p>
       </td>
       <td>
         <img src="https://user-images.githubusercontent.com/13917975/190673146-bf7f9043-1c74-4de3-b4cc-1f8051e1fbc4.png" />
+        <p align="center">Activity</p>
       </td>
       <td>
         <img src="https://user-images.githubusercontent.com/13917975/190673161-38338d04-9205-4de7-a1f7-a6229b11e375.png" />
+        <p align="center">Profile</p>
       </td>
     </tr>
   </tbody>
