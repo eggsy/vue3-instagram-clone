@@ -8,23 +8,26 @@ Here's a _not-so-little but also not-so-detailed_ Instagram clone app with Vue 3
 ### Screenshots Table
 
 <table>
+  <thead>
+    <th>Homepage</th>
+    <th>Messages</th>
+    <th>Activity</th>
+    <th>Profile</th>
+  </thead>
+
   <tbody>
     <tr>
       <td>
-        <img src="https://user-images.githubusercontent.com/13917975/190673101-a461b7cd-246b-45a7-9c0e-ee0f1df59a4c.png" />
-        <p align="center">Homepage</p>
+        <img src="https://user-images.githubusercontent.com/13917975/190673101-a461b7cd-246b-45a7-9c0e-ee0f1df59a4c.png" height="350px" />
       </td>
       <td>
-        <img src="https://user-images.githubusercontent.com/13917975/190673127-fef384a0-a0eb-4bda-8dc1-04e7982b0766.png" />
-        <p align="center">Messages</p>
+        <img src="https://user-images.githubusercontent.com/13917975/190673127-fef384a0-a0eb-4bda-8dc1-04e7982b0766.png" height="350px" />
       </td>
       <td>
-        <img src="https://user-images.githubusercontent.com/13917975/190673146-bf7f9043-1c74-4de3-b4cc-1f8051e1fbc4.png" />
-        <p align="center">Activity</p>
+        <img src="https://user-images.githubusercontent.com/13917975/190673146-bf7f9043-1c74-4de3-b4cc-1f8051e1fbc4.png" height="350px" />
       </td>
       <td>
-        <img src="https://user-images.githubusercontent.com/13917975/190673161-38338d04-9205-4de7-a1f7-a6229b11e375.png" />
-        <p align="center">Profile</p>
+        <img src="https://user-images.githubusercontent.com/13917975/190673161-38338d04-9205-4de7-a1f7-a6229b11e375.png" height="350px" />
       </td>
     </tr>
   </tbody>
