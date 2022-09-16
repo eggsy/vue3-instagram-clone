@@ -1,15 +1,11 @@
 <script lang="ts" setup>
 import { ref } from "vue";
 
-const props = defineProps({
-  liked: {
-    type: Boolean,
-    required: false,
-    default: false,
-  },
-});
+const props = defineProps<{
+  liked?: boolean;
+}>();
 
-const isLiked = ref(props.liked ?? false);
+const isLiked = ref(props.liked || false);
 </script>
 
 <template>

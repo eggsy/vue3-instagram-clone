@@ -1,23 +1,16 @@
 <script setup lang="ts">
 import StoryBox from "../Story/Box.vue";
 
-defineProps({
-  avatar: {
-    type: String,
-    required: true,
-    default: null,
-  },
-  username: {
-    type: String,
-    required: false,
-    default: "",
-  },
-  storySeen: {
-    type: Boolean,
-    required: false,
-    default: true,
-  },
-});
+withDefaults(
+  defineProps<{
+    avatar: string;
+    username?: string;
+    storySeen?: boolean;
+  }>(),
+  {
+    storySeen: true,
+  }
+);
 </script>
 
 <template>

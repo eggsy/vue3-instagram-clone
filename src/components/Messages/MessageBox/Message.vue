@@ -4,18 +4,10 @@ import CameraIcon from "~icons/tabler/camera";
 // Components
 import StoryBox from "../../Story/Box.vue";
 
-const props = defineProps({
-  avatar: {
-    type: String,
-    required: false,
-    default: "",
-  },
-  username: {
-    type: String,
-    required: true,
-    default: "",
-  },
-});
+const props = defineProps<{
+  avatar?: string;
+  username: string;
+}>();
 
 const mockMessages = [
   "How are you?",

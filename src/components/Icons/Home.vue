@@ -1,11 +1,12 @@
 <script lang="ts" setup>
-defineProps({
-  filled: {
-    type: Boolean,
-    required: false,
-    default: true,
-  },
-});
+withDefaults(
+  defineProps<{
+    filled?: boolean;
+  }>(),
+  {
+    filled: true,
+  }
+);
 </script>
 
 <template>

@@ -3,7 +3,7 @@ import useDataStore from "../../store/data";
 
 const props = withDefaults(
   defineProps<{
-    avatar: string;
+    avatar?: string;
     seen?: boolean;
     username?: string;
     size?: "normal" | "sm" | "xs" | "md" | "lg";

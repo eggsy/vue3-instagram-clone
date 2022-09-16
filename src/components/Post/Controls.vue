@@ -8,18 +8,10 @@ import IconHeart from "../Icons/Heart.vue";
 import IconPaperAirplane from "../Icons/PaperAirplane.vue";
 import IconBookmark from "../Icons/Bookmark.vue";
 
-defineProps({
-  username: {
-    type: String,
-    required: true,
-    default: "",
-  },
-  description: {
-    type: String,
-    required: false,
-    default: "",
-  },
-});
+defineProps<{
+  username: string;
+  description?: string;
+}>();
 
 // a function that return a number between 10 and 100000
 const getRandomNumber = (maxValue: number, startValue: number = 1) =>

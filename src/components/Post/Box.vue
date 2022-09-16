@@ -3,33 +3,13 @@ import PostHeader from "./Header.vue";
 import PostContent from "./Content.vue";
 import PostControls from "./Controls.vue";
 
-defineProps({
-  username: {
-    type: String,
-    required: true,
-    default: "",
-  },
-  image: {
-    type: String,
-    required: true,
-    default: "",
-  },
-  avatar: {
-    type: String,
-    required: true,
-    default: "",
-  },
-  description: {
-    type: String,
-    required: false,
-    default: "",
-  },
-  storySeen: {
-    type: Boolean,
-    required: false,
-    default: false,
-  },
-});
+defineProps<{
+  username: string;
+  image: string;
+  avatar: string;
+  description?: string;
+  storySeen?: boolean;
+}>();
 </script>
 
 <template>

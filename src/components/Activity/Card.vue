@@ -5,13 +5,14 @@ import data from "../../data";
 // Components
 import StoryBox from "../Story/Box.vue";
 
-defineProps({
-  image: {
-    type: String,
-    required: false,
-    default: "https://picsum.photos/300/300",
-  },
-});
+withDefaults(
+  defineProps<{
+    image?: string;
+  }>(),
+  {
+    image: "https://picsum.photos/300/300",
+  }
+);
 
 const followed = ref(false);
 const mockValues = [
