@@ -1,8 +1,8 @@
 # Instagram Clone with Vue 3
 
-Here's a _not-so-little but also not-so-detailed_ Instagram clone app with Vue 3, TypeScript, Tailwind CSS on Twitch! You can check out [my channel by clicking here](https://www.twitch.tv/eggsydev/).
+Here's a _not-so-little but also not-so-detailed_ Instagram clone app built with Vue 3, TypeScript, Tailwind CSS on Twitch! You can check out [my channel by clicking here](https://www.twitch.tv/eggsydev/).
 
-- Take a look at the demo: [https://vue3-instagram-clone.netlify.app/](https://vue3-instagram-clone.netlify.app/)
+- Take a look at the demo: [vue3-instagram-clone.netlify.app](https://vue3-instagram-clone.netlify.app/)
 - Watch me building the app: [Twitch Collection](https://www.twitch.tv/eggsydev/videos#:~:text=Coding)
 
 ### Screenshots Table

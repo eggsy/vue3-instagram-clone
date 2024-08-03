@@ -88,6 +88,13 @@ const data: IData[] = [
     },
     image: "https://i.imgur.com/HUrDmbc.jpg",
   },
+  {
+    user: {
+      nickname: "cem",
+      avatar: "https://i.imgur.com/rb0ENuM.png",
+    },
+    image: "https://i.imgur.com/Ogua1uj.jpeg",
+  },
 ].map(
   (item, index) =>
     ({
