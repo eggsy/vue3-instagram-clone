@@ -23,6 +23,7 @@
     "postcss": "^8.4.40",
     "tailwindcss": "^3.4.7",
     "typescript": "^5.5.4",
+    "unplugin-fonts": "^1.1.1",
     "unplugin-icons": "^0.19.1",
     "vite": "^5.3.5",
     "vite-plugin-pages": "^0.32.3",

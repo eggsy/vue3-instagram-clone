@@ -4,7 +4,6 @@ import { useRoute, useRouter } from "vue-router";
 // Icons
 import IconCamera from "~icons/tabler/camera";
 import IconMessage from "~icons/tabler/message-circle";
-import LogoInstagram from "~icons/logos/instagram";
 import { onBeforeUnmount, onMounted } from "vue";
 
 const route = useRoute();
@@ -32,8 +31,8 @@ onBeforeUnmount(() => {
       <IconCamera class="text-xl" />
     </RouterLink>
 
-    <RouterLink to="/">
-      <LogoInstagram class="h-8 pt-1 w-24" />
+    <RouterLink to="/" class="font-satisfy text-xl text-center py-1">
+      Instagram
     </RouterLink>
 
     <RouterLink to="/messages">
