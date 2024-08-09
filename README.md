@@ -1,5 +1,8 @@
 # Instagram Clone with Vue 3
 
+> [!IMPORTANT]  
+> This app is not affiliated with Instagram or Meta Platforms, Inc.
+
 Here's a _not-so-little but also not-so-detailed_ Instagram clone app built with Vue 3, TypeScript, Tailwind CSS on Twitch!
 
 ### Screenshots Table
