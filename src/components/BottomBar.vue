@@ -35,7 +35,7 @@ const filteredPages = ["/messages", "/camera"];
 
     <RouterLink to="/profile">
       <StoryBox
-        avatar="https://i.imgur.com/7OXeSik.jpg"
+        avatar="https://i.imgur.com/6RgiAol.png"
         size="xs"
         :show-circle="false"
       />

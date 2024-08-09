@@ -14,7 +14,7 @@ const data: IData[] = [
   {
     user: {
       nickname: "eggsy_dev",
-      avatar: "https://i.imgur.com/7OXeSik.jpg",
+      avatar: "https://i.imgur.com/6RgiAol.png",
     },
     image: "https://i.imgur.com/XIe1ewy.jpg",
     description: "🌸 Really cool flower.",
@@ -101,7 +101,7 @@ const data: IData[] = [
       ...item,
       image: `https://proxy.duckduckgo.com/iu/?u=${item.image}`,
       storySeen: !index,
-    } as IData)
+    }) as IData,
 );
 
 export default data;
