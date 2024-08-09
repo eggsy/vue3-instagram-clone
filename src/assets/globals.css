@@ -2,3 +2,7 @@
 * {
   -webkit-tap-highlight-color: transparent;
 }
+
+body {
+  scrollbar-gutter: stable;
+}

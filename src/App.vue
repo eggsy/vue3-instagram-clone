@@ -1,8 +1,10 @@
 <script setup lang="ts">
+import { useRouter } from "vue-router";
+
 import Layout from "./components/Layout.vue";
 import Navbar from "./components/Navbar.vue";
 import BottomBar from "./components/BottomBar.vue";
-import { useRouter } from "vue-router";
+import AffiliationNotice from "./components/AffiliationNotice.vue";
 
 const router = useRouter();
 
@@ -21,6 +23,7 @@ router.beforeEach(() => {
     </Layout>
 
     <!-- Absolute items -->
+    <AffiliationNotice />
     <Navbar />
     <BottomBar />
   </div>
